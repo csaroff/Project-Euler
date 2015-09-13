@@ -2,10 +2,6 @@ import java.util.HashMap;
 public class Five{
     public static int MAX = 20;
     public static void main(String[] args){
-        //HashMap<Integer, Integer> pf = getPrimeFactors(20);
-        //for(Integer i : pf.keySet()){
-        //    System.out.println(i);
-        //}
         HashMap<Integer, Integer> primeFactors = new HashMap<Integer, Integer>();
         for(int i=1; i<=MAX; i++){primeFactors.put(i,0);}
         for(int i=2; i<=MAX; i++){
@@ -30,7 +26,6 @@ public class Five{
         assert top > 1;
         for(int i=2; i<=top; i++){
             while(top%i==0){
-                //System.out.println("start = " + top + " and i = " + i);
                 if(primeFactors.get(i)==null)
                     primeFactors.put(i, 1);
                 else

@@ -12,9 +12,6 @@ public class Seven{
     }
     public static boolean isPrime(int x){
         for(int i=0; i<nextPrime; i++){
-            //System.out.println("i = " + i);
-            //System.out.println("the i'th prime is: " + primes[i]);
-            //System.out.println("the i+1'th prime is: " + primes[i+1]);
             if(x%primes[i]==0)
                 return false;
         }

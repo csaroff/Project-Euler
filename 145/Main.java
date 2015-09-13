@@ -5,10 +5,8 @@ public class Main {
             if(i%10 == 0)
                 continue;
             if(isEntirelyOdd(i + reverse(i))){
-                //System.out.println(i+reverse(i));
                 count++;
             }
-            //System.out.println("i = " + i);
         }
         System.out.println("count = " + count);
     }

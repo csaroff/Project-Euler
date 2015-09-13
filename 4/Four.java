@@ -5,13 +5,11 @@ public class Four{
         int b=0;
         for(int i=0; i<1000; i++){
             for(int j=0; j<1000; j++){
-                //for(int k=0; k<100; k++){
-                    if(isPalindrome(i*j)&&(i*j>largestNum)){
-                        largestNum= i*j;
-                        a=i;
-                        b=j;
-                    }
-                //}
+                if(isPalindrome(i*j)&&(i*j>largestNum)){
+                    largestNum= i*j;
+                    a=i;
+                    b=j;
+                }
             }
         }
         System.out.println("The largest number = " + a + "*" + b + "=" + largestNum);
