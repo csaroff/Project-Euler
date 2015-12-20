@@ -1,0 +1,20 @@
+{
+  "name": "045",
+  "version": "0.0.0",
+  "description": "A script to generate numbers that are triangle, pentagonal and hexagonal.",
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Project",
+    "Euler"
+  ],
+  "author": "Chaskin Saroff",
+  "license": "ISC"
+}
