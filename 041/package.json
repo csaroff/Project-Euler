@@ -1,0 +1,17 @@
+{
+  "name": "041",
+  "version": "0.0.1",
+  "description": "Generate the largest n digit pandigital prime that exists.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --harmony src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaskin Saroff",
+  "license": "ISC",
+  "dependencies": {
+    "js-combinatorics": "^0.5.0",
+    "lodash": "^3.10.1",
+    "sieve": "0.0.4"
+  }
+}
